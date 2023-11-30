@@ -14,6 +14,7 @@ import path from "path";
 const cors = require("cors");
 dotenv.config();
 
+
 class App {
   public express: Application;
   public port: number;
